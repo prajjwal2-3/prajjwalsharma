@@ -31,12 +31,12 @@ function App() {
         <Skills skills={data.skills} />
       </div>
 
-      <div data-aos="fade-up" data-aos-duration="400" data-aos-delay="600">
+      {/* <div data-aos="fade-up" data-aos-duration="400" data-aos-delay="600">
         <Experience
           title={data.experience.title}
           companies={data.experience.companies}
         />
-      </div>
+      </div> */}
 
       <div data-aos="fade-up" data-aos-duration="400" data-aos-delay="600">
         <Projects projects={data.projects} />

@@ -42,7 +42,7 @@ function Card({ name, title, social: { github, linkedin, twitter, email } }) {
             <FaLinkedin />
             <span class="sr-only">LinkedIn</span>
           </a>
-          <a
+          {/* <a
             target="_blank"
             rel="noopener noreferrer"
             className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-blue-500 hover:bg-blue-500 rounded-full hover:text-white transition-colors duration-300"
@@ -50,7 +50,7 @@ function Card({ name, title, social: { github, linkedin, twitter, email } }) {
           >
             <FaTwitter />
             <span class="sr-only">Twitter</span>
-          </a>
+          </a> */}
           <a
             target="_blank"
             rel="noopener noreferrer"

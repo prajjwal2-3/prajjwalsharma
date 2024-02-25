@@ -5,7 +5,7 @@ function Footer({ github }) {
   return (
     <div className="text-center w-full mt-16">
       <p className="text-gray-600 mb-4">
-        @Created by Yash Garg (
+        @Created by Prajjwal sharma (
         <a
           rel="noopener noreferrer"
           className="text-blue-500 hover:underline"

@@ -2,22 +2,22 @@ import React from "react";
 
 const BOOTSTRAP_FOR_SKILL_ICON = "w-12 text-4xl mx-auto inline-block ";
 export const RESUME_LINK =
-"https://drive.google.com/file/d/1HcILm53O4BR7HoOG_6MNxu8G_L8bEm2q/view?usp=sharing";
+"https://drive.google.com/file/d/17wetmdm4niT5OzrBXpyTN1ViXUOxqd9e/view?usp=drive_link";
 export const PROFILE_PIC =
-  "https://res.cloudinary.com/dwwtffefs/image/upload/v1677576649/my-profile-pic/profile_ozrf3u.png";
+  "https://res.cloudinary.com/dzkldv06d/image/upload/v1708884662/xxk0icbcarelejf0nqe6.jpg";
 const data = {
-  name: "Yash Garg",
+  name: "Prajjwal Sharma",
   title: "Full Stack Developer",
   social: {
-    github: "https://github.com/thisisyashgarg",
-    linkedin: "https://linkedin.com/in/thisisyashgarg",
-    twitter: "https://twitter.com/thisisyashgargg",
-    email: "thisisyashgarg@gmail.com",
+    github: "https://github.com/prajjwal2-3",
+    linkedin: "https://www.linkedin.com/in/prajjwal-sharma-5700811b1/",
+    // twitter: "https://twitter.com/thisisyashgargg",
+    email: "prajjwalbh25@gmail.com",
   },
   about: {
     title: "My Background",
     description:
-      "I'm a final-year B.Tech (Information Technology) student who loves building things. My passion for creating projects from scratch drives me to stay current with the latest technologies and to tackle projects of any size or complexity.  ",
+      "I'm a Second-year B.Tech student who loves building things. My passion for creating projects from scratch drives me to stay current with the latest technologies and to tackle projects of any size or complexity.  ",
   },
   experience: {
     title: "My Experience",
@@ -59,16 +59,16 @@ description:"Revamped the message interface and significantly contributed to the
     ],
   },
   skills: [
-    {
-      skillName: "NextJS",
-      skillIcon: (
-        <img
-          alt="nextjslogo"
-          className={BOOTSTRAP_FOR_SKILL_ICON}
-          src="https://res.cloudinary.com/dwwtffefs/image/upload/v1689799688/next-js_wcrebp.svg"
-        />
-      ),
-    },
+    // {
+    //   skillName: "NextJS",
+    //   skillIcon: (
+    //     <img
+    //       alt="nextjslogo"
+    //       className={BOOTSTRAP_FOR_SKILL_ICON}
+    //       src="https://res.cloudinary.com/dwwtffefs/image/upload/v1689799688/next-js_wcrebp.svg"
+    //     />
+    //   ),
+    // },
     {
       skillName: "ReactJS",
       skillIcon: (
@@ -99,26 +99,26 @@ description:"Revamped the message interface and significantly contributed to the
         />
       ),
     },
-    {
-      skillName: "EC2 (AWS)",
-      skillIcon: (
-        <img
-          alt="awslogo"
-          className={BOOTSTRAP_FOR_SKILL_ICON}
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1024px-Amazon_Web_Services_Logo.svg.png"
-        />
-      ),
-    },
-    {
-      skillName: "Docker",
-      skillIcon: (
-        <img
-          alt="dockerlogo"
-          className={BOOTSTRAP_FOR_SKILL_ICON}
-          src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png"
-        />
-      ),
-    },
+    // {
+    //   skillName: "EC2 (AWS)",
+    //   skillIcon: (
+    //     <img
+    //       alt="awslogo"
+    //       className={BOOTSTRAP_FOR_SKILL_ICON}
+    //       src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1024px-Amazon_Web_Services_Logo.svg.png"
+    //     />
+    //   ),
+    // },
+    // {
+    //   skillName: "Docker",
+    //   skillIcon: (
+    //     <img
+    //       alt="dockerlogo"
+    //       className={BOOTSTRAP_FOR_SKILL_ICON}
+    //       src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png"
+    //     />
+    //   ),
+    // },
 
     {
       skillName: "Typescript",
@@ -174,62 +174,62 @@ description:"Revamped the message interface and significantly contributed to the
   ],
   projects: [
     {
-      title: "UnQueue",
+      title: "MovieGPT",
       description:
-        "UnQueue eliminates physical queues by joining virtual queues from your device, receive turn notifications, making it convenient and efficient.",
+        "Moviegpt is a movie recommendation website that uses the power of OPENAI's GPT-3.5 model to recommend movies based on users input.",
       tags: ["react", "tailwindcss", "react-router-dom", "firebase"],
-      codeLink: "https://github.com/thisisyashgarg/unqueue",
-      websiteLink: "https://unqueue.netlify.app/",
-      androidAppLink:
-        "https://drive.google.com/file/d/1jlq_eQv7EnLtAJlUlP_37OnmFaApuuPT/view?usp=drivesdk",
+      codeLink: "https://github.com/prajjwal2-3/moviegpt.git",
+      websiteLink: "https://moviegpt-5at.vercel.app/",
+      // androidAppLink:
+      //   "https://drive.google.com/file/d/1jlq_eQv7EnLtAJlUlP_37OnmFaApuuPT/view?usp=drivesdk",
       screenshots: [
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677179980/unqueue-ss/homepage_bej3xk.png",
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677179980/unqueue-ss/domains_d11nth.png",
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677179979/unqueue-ss/dashboard_gepykw.png",
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1708886414/mnyv2ugvw5cddqieq92w.png",
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1708886415/jdl7tn3hvc8tktu4njqy.png",
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1708886415/ykaclfgi8has2pfz2dyo.png",
       ],
     },
 
     {
-      title: "Foodify",
+      title: "Edhaba",
       description: "Foodify is a food exploration app",
-      tags: ["react", "tailwindcss", "redux-toolkit", "typescript"],
-      codeLink: "https://github.com/thisisyashgarg/namaste-react",
-      websiteLink: "https://foodifyme.netlify.app/",
+      tags: ["react", "tailwindcss", "redux-toolkit", "javascript"],
+      codeLink: "https://github.com/prajjwal2-3/Edhaba-prod.git",
+      websiteLink: "https://edhaba-prod.vercel.app/",
       screenshots: [
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677495619/foodify/home_rdikc3.png",
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677495618/foodify/menu_ibpjha.png",
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677495618/foodify/cart_lio0de.png",
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1708885707/mrolic49suzjrtu60hau.png",
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1708885707/atdvdfv5p4dv2gfzpwyf.png",
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1708885707/b0yxyvtlitrchdmbso5x.png",
       ],
     },
-    {
-      title: "Ain't Youtube",
-      description: "Ain't Youtube is a video streaming app",
-      tags: [
-        "react",
-        "tailwindcss",
-        "redux-toolkit",
-        "typescript",
-        "youtube-api",
-      ],
-      codeLink: "https://github.com/thisisyashgarg/youtube-clone",
-      websiteLink: "https://aintyoutube.netlify.app/",
-      screenshots: [
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1680374548/youtube-clone/Screenshot_Capture_-_2023-03-17_-_23-14-12_qf9qqa.png",
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1680374550/youtube-clone/Screenshot_Capture_-_2023-03-17_-_23-14-41_jqa6fd.png",
-      ],
-    },
-    {
-      title: "Cryptologer",
-      description:
-        "This is a tweeter bot that automatically fetches crypto news from an API and then generates commentary tweet about it and tweets that commentary through your twitter account",
-      tags: ["xml-js", "twit", "openai", "newsdata-api"],
-      codeLink: "https://github.com/thisisyashgarg/news-tweeter-bot",
-      websiteLink:
-        "https://twitter.com/IAmCryptologer?t=Rv_xgKBcUDbNc1lbUrBjhw&s=09",
-      screenshots: [
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677303411/news-bot/Screenshot_Capture_-_2023-02-25_-_11-06-38_kvcpnu.png",
-      ],
-    },
+    // {
+    //   title: "Ain't Youtube",
+    //   description: "Ain't Youtube is a video streaming app",
+    //   tags: [
+    //     "react",
+    //     "tailwindcss",
+    //     "redux-toolkit",
+    //     "typescript",
+    //     "youtube-api",
+    //   ],
+    //   codeLink: "https://github.com/thisisyashgarg/youtube-clone",
+    //   websiteLink: "https://aintyoutube.netlify.app/",
+    //   screenshots: [
+    //     "https://res.cloudinary.com/dwwtffefs/image/upload/v1680374548/youtube-clone/Screenshot_Capture_-_2023-03-17_-_23-14-12_qf9qqa.png",
+    //     "https://res.cloudinary.com/dwwtffefs/image/upload/v1680374550/youtube-clone/Screenshot_Capture_-_2023-03-17_-_23-14-41_jqa6fd.png",
+    //   ],
+    // },
+    // {
+    //   title: "Cryptologer",
+    //   description:
+    //     "This is a tweeter bot that automatically fetches crypto news from an API and then generates commentary tweet about it and tweets that commentary through your twitter account",
+    //   tags: ["xml-js", "twit", "openai", "newsdata-api"],
+    //   codeLink: "https://github.com/thisisyashgarg/news-tweeter-bot",
+    //   websiteLink:
+    //     "https://twitter.com/IAmCryptologer?t=Rv_xgKBcUDbNc1lbUrBjhw&s=09",
+    //   screenshots: [
+    //     "https://res.cloudinary.com/dwwtffefs/image/upload/v1677303411/news-bot/Screenshot_Capture_-_2023-02-25_-_11-06-38_kvcpnu.png",
+    //   ],
+    // },
     // {
     //   title: "EaseIt",
     //   description:
@@ -253,80 +253,80 @@ description:"Revamped the message interface and significantly contributed to the
     //     "https://res.cloudinary.com/dwwtffefs/image/upload/v1677131888/easeit/Screenshot_Capture_-_2023-02-23_-_11-25-12_w48ou0.png",
     //   ],
     // },
-    {
-      title: "Book Management API ( with Swagger Docs)",
-      description: "A simple API for book management",
-      tags: ["nodejs", "typescript", "swagger", "docker", "mvc"],
-      codeLink: "https://github.com/thisisyashgarg/vocally-assignment",
-      websiteLink: "",
-      screenshots: [
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1680375357/books-api/Screenshot_Capture_-_2023-04-02_-_00-25-09_xnsdo8.png",
-      ],
-    },
+    // {
+    //   title: "Book Management API ( with Swagger Docs)",
+    //   description: "A simple API for book management",
+    //   tags: ["nodejs", "typescript", "swagger", "docker", "mvc"],
+    //   codeLink: "https://github.com/thisisyashgarg/vocally-assignment",
+    //   websiteLink: "",
+    //   screenshots: [
+    //     "https://res.cloudinary.com/dwwtffefs/image/upload/v1680375357/books-api/Screenshot_Capture_-_2023-04-02_-_00-25-09_xnsdo8.png",
+    //   ],
+    // },
 
     {
       title: "Meme Generator",
       description:
         "This is a meme generator that generates a random meme template and takes input text, dynamically adds it to a meme. You can download the meme as well. Have fun with it.",
-      tags: ["react", "typescript", "html2canvas", "download-js"],
-      codeLink: "https://github.com/thisisyashgarg/meme-generator",
-      websiteLink: "https://creatememes.netlify.app/",
+      tags: ["react", "javascript"],
+      codeLink: "https://github.com/prajjwal2-3/Memer.git",
+      websiteLink: "https://memer-two.vercel.app/",
 
       screenshots: [
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677136172/meme-generator/Screenshot_Capture_-_2023-02-23_-_12-38-21_tmrqke.png",
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1708886939/Screenshot_2024-02-26_001840_vno3ye.png",
       ],
     },
-    {
-      title: "FooBank - Modern Banking Website",
-      description:
-        "Completely responsive modern banking website made out of just two dependencies, React and Tailwiind",
-      tags: ["react", "typescript", "tailwindcss"],
-      codeLink: "https://github.com/thisisyashgarg/banking-app",
-      websiteLink: "https://foobank.netlify.app/",
+    // {
+    //   title: "FooBank - Modern Banking Website",
+    //   description:
+    //     "Completely responsive modern banking website made out of just two dependencies, React and Tailwiind",
+    //   tags: ["react", "typescript", "tailwindcss"],
+    //   codeLink: "https://github.com/thisisyashgarg/banking-app",
+    //   websiteLink: "https://foobank.netlify.app/",
 
-      screenshots: [
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677761304/foobank/Screenshot_Capture_-_2023-03-02_-_18-16-08_awcva1.png",
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677761304/foobank/Screenshot_Capture_-_2023-03-02_-_18-16-32_gtfpak.png",
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677761304/foobank/Screenshot_Capture_-_2023-03-02_-_18-16-58_mpxjpc.png",
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677761303/foobank/Screenshot_Capture_-_2023-03-02_-_18-17-17_vjhpda.png",
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677761303/foobank/Screenshot_Capture_-_2023-03-02_-_18-16-26_xytphk.png",
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677761303/foobank/Screenshot_Capture_-_2023-03-02_-_18-17-21_iwnxkx.png",
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677761303/foobank/Screenshot_Capture_-_2023-03-02_-_18-16-15_ik4d4z.png",
-      ],
-    },
-    {
-      title: "Tenzies Game",
-      description:
-        "Tenzies is a React-based dice game in which the goal is to roll until all dice are the same.",
-      tags: ["react", "typescript", "tailwindcss"],
-      codeLink: "https://github.com/thisisyashgarg/tenzies-game",
-      websiteLink: "https://tenziesmatch.netlify.app/",
+    //   screenshots: [
+    //     "https://res.cloudinary.com/dwwtffefs/image/upload/v1677761304/foobank/Screenshot_Capture_-_2023-03-02_-_18-16-08_awcva1.png",
+    //     "https://res.cloudinary.com/dwwtffefs/image/upload/v1677761304/foobank/Screenshot_Capture_-_2023-03-02_-_18-16-32_gtfpak.png",
+    //     "https://res.cloudinary.com/dwwtffefs/image/upload/v1677761304/foobank/Screenshot_Capture_-_2023-03-02_-_18-16-58_mpxjpc.png",
+    //     "https://res.cloudinary.com/dwwtffefs/image/upload/v1677761303/foobank/Screenshot_Capture_-_2023-03-02_-_18-17-17_vjhpda.png",
+    //     "https://res.cloudinary.com/dwwtffefs/image/upload/v1677761303/foobank/Screenshot_Capture_-_2023-03-02_-_18-16-26_xytphk.png",
+    //     "https://res.cloudinary.com/dwwtffefs/image/upload/v1677761303/foobank/Screenshot_Capture_-_2023-03-02_-_18-17-21_iwnxkx.png",
+    //     "https://res.cloudinary.com/dwwtffefs/image/upload/v1677761303/foobank/Screenshot_Capture_-_2023-03-02_-_18-16-15_ik4d4z.png",
+    //   ],
+    // },
+    // {
+    //   title: "Tenzies Game",
+    //   description:
+    //     "Tenzies is a React-based dice game in which the goal is to roll until all dice are the same.",
+    //   tags: ["react", "typescript", "tailwindcss"],
+    //   codeLink: "https://github.com/thisisyashgarg/tenzies-game",
+    //   websiteLink: "https://tenziesmatch.netlify.app/",
 
-      screenshots: [
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1679938405/tenzies/Screenshot_Capture_-_2023-03-27_-_23-03-08_putehk.png",
-      ],
-    },
-    {
-      title: "Discord Tweeter Bot",
-      description:
-        "Discord Tweeter Bot is a discord bot that basically takes your input, a tweet of yours that you want to post, and directly posts it through your twitter profile",
-      tags: ["twit", "discord-js", "nodejs", "twitter-apiV2"],
-      codeLink: "https://github.com/thisisyashgarg/discord-tweeter-bot",
-      websiteLink: "",
-      screenshots: [
-        "https://res.cloudinary.com/dwwtffefs/image/upload/v1677137451/discord-bot/Screenshot_Capture_-_2023-02-23_-_12-59-59_cci6qa.png",
-      ],
-    },
+    //   screenshots: [
+    //     "https://res.cloudinary.com/dwwtffefs/image/upload/v1679938405/tenzies/Screenshot_Capture_-_2023-03-27_-_23-03-08_putehk.png",
+    //   ],
+    // },
+    // {
+    //   title: "Discord Tweeter Bot",
+    //   description:
+    //     "Discord Tweeter Bot is a discord bot that basically takes your input, a tweet of yours that you want to post, and directly posts it through your twitter profile",
+    //   tags: ["twit", "discord-js", "nodejs", "twitter-apiV2"],
+    //   codeLink: "https://github.com/thisisyashgarg/discord-tweeter-bot",
+    //   websiteLink: "",
+    //   screenshots: [
+    //     "https://res.cloudinary.com/dwwtffefs/image/upload/v1677137451/discord-bot/Screenshot_Capture_-_2023-02-23_-_12-59-59_cci6qa.png",
+    //   ],
+    // },
 
-    {
-      title: "NodeJS Crawler",
-      description:
-        "A Nodejs crawler that crawls a government website and takes out data of latest tenders passed along with their dates and contractor (if any)",
-      tags: ["nodejs", "puppeteer", "headless-browser"],
-      codeLink: "https://github.com/thisisyashgarg/nodejs-crawler",
-      websiteLink: "",
-      screenshots: [],
-    },
+    // {
+    //   title: "NodeJS Crawler",
+    //   description:
+    //     "A Nodejs crawler that crawls a government website and takes out data of latest tenders passed along with their dates and contractor (if any)",
+    //   tags: ["nodejs", "puppeteer", "headless-browser"],
+    //   codeLink: "https://github.com/thisisyashgarg/nodejs-crawler",
+    //   websiteLink: "",
+    //   screenshots: [],
+    // },
   ],
 };
 
