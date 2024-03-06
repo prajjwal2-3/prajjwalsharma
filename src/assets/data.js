@@ -201,23 +201,25 @@ description:"Revamped the message interface and significantly contributed to the
         "https://res.cloudinary.com/dzkldv06d/image/upload/v1708885707/b0yxyvtlitrchdmbso5x.png",
       ],
     },
-    // {
-    //   title: "Ain't Youtube",
-    //   description: "Ain't Youtube is a video streaming app",
-    //   tags: [
-    //     "react",
-    //     "tailwindcss",
-    //     "redux-toolkit",
-    //     "typescript",
-    //     "youtube-api",
-    //   ],
-    //   codeLink: "https://github.com/thisisyashgarg/youtube-clone",
-    //   websiteLink: "https://aintyoutube.netlify.app/",
-    //   screenshots: [
-    //     "https://res.cloudinary.com/dwwtffefs/image/upload/v1680374548/youtube-clone/Screenshot_Capture_-_2023-03-17_-_23-14-12_qf9qqa.png",
-    //     "https://res.cloudinary.com/dwwtffefs/image/upload/v1680374550/youtube-clone/Screenshot_Capture_-_2023-03-17_-_23-14-41_jqa6fd.png",
-    //   ],
-    // },
+    {
+      title: "Not Youtube",
+      description: "Not Youtube is a video streaming app",
+      tags: [
+        "react",
+        "tailwindcss",
+        "redux-toolkit",
+        "typescript",
+        "youtube-api",
+      ],
+      codeLink: "https://github.com/prajjwal2-3/Myyoutube",
+      websiteLink: "https://myyoutube-gules.vercel.app/",
+      screenshots: [
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1709725926/Screenshot_2024-03-06_171933_wenayc.png",
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1709725926/Screenshot_2024-03-06_171957_iw2oml.png",
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1709725926/Screenshot_2024-03-06_172100_w524o5.png",
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1709725926/Screenshot_2024-03-06_172023_jmy1d3.png",
+      ],
+    },
     // {
     //   title: "Cryptologer",
     //   description:
