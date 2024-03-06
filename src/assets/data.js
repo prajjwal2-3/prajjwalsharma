@@ -174,6 +174,39 @@ description:"Revamped the message interface and significantly contributed to the
   ],
   projects: [
     {
+      title: "Not Youtube",
+      description: "Not Youtube is a video streaming app",
+      tags: [
+        "react",
+        "tailwindcss",
+        "redux-toolkit",
+        "typescript",
+        "youtube-api",
+      ],
+      codeLink: "https://github.com/prajjwal2-3/Myyoutube",
+      websiteLink: "https://myyoutube-gules.vercel.app/",
+      screenshots: [
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1709725926/Screenshot_2024-03-06_171933_wenayc.png",
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1709726517/Screenshot_2024-03-06_173108_ehvc5d.png",
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1709725926/Screenshot_2024-03-06_172100_w524o5.png",
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1709726517/Screenshot_2024-03-06_173139_irblvn.png",
+      ],
+    },
+    {
+      title: "CSI-Innowave",
+      description:
+        "This is our college's official technical society CSI-Innowave's website",
+      tags: ["Tailwind CSS", "Material UI", "Acertinity UI", "React.js"],
+      codeLink: "https://github.com/prajjwal2-3/CSI",
+      websiteLink:
+        "https://csiinnowave-three.vercel.app/",
+      screenshots: [
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1709726315/Screenshot_2024-03-06_172736_gdrk8w.png",
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1709726315/Screenshot_2024-03-06_172817_fvcrhu.png",
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1709726314/Screenshot_2024-03-06_172756_lptzrk.png",
+      ],
+    },
+    {
       title: "MovieGPT",
       description:
         "Moviegpt is a movie recommendation website that uses the power of OPENAI's GPT-3.5 model to recommend movies based on users input.",
@@ -201,39 +234,8 @@ description:"Revamped the message interface and significantly contributed to the
         "https://res.cloudinary.com/dzkldv06d/image/upload/v1708885707/b0yxyvtlitrchdmbso5x.png",
       ],
     },
-    {
-      title: "Not Youtube",
-      description: "Not Youtube is a video streaming app",
-      tags: [
-        "react",
-        "tailwindcss",
-        "redux-toolkit",
-        "typescript",
-        "youtube-api",
-      ],
-      codeLink: "https://github.com/prajjwal2-3/Myyoutube",
-      websiteLink: "https://myyoutube-gules.vercel.app/",
-      screenshots: [
-        "https://res.cloudinary.com/dzkldv06d/image/upload/v1709725926/Screenshot_2024-03-06_171933_wenayc.png",
-        "https://res.cloudinary.com/dzkldv06d/image/upload/v1709725926/Screenshot_2024-03-06_171957_iw2oml.png",
-        "https://res.cloudinary.com/dzkldv06d/image/upload/v1709725926/Screenshot_2024-03-06_172100_w524o5.png",
-        "https://res.cloudinary.com/dzkldv06d/image/upload/v1709725926/Screenshot_2024-03-06_172023_jmy1d3.png",
-      ],
-    },
-    {
-      title: "CSI-Innowave",
-      description:
-        "This is our college's official technical society CSI-Innowave's website",
-      tags: ["Tailwind CSS", "Material UI", "Acertinity UI", "React.js"],
-      codeLink: "https://github.com/prajjwal2-3/CSI",
-      websiteLink:
-        "https://csiinnowave-three.vercel.app/",
-      screenshots: [
-        "https://res.cloudinary.com/dzkldv06d/image/upload/v1709726315/Screenshot_2024-03-06_172736_gdrk8w.png",
-        "https://res.cloudinary.com/dzkldv06d/image/upload/v1709726315/Screenshot_2024-03-06_172817_fvcrhu.png",
-        "https://res.cloudinary.com/dzkldv06d/image/upload/v1709726314/Screenshot_2024-03-06_172756_lptzrk.png",
-      ],
-    },
+   
+ 
     // {
     //   title: "EaseIt",
     //   description:
