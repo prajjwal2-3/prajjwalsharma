@@ -220,18 +220,20 @@ description:"Revamped the message interface and significantly contributed to the
         "https://res.cloudinary.com/dzkldv06d/image/upload/v1709725926/Screenshot_2024-03-06_172023_jmy1d3.png",
       ],
     },
-    // {
-    //   title: "Cryptologer",
-    //   description:
-    //     "This is a tweeter bot that automatically fetches crypto news from an API and then generates commentary tweet about it and tweets that commentary through your twitter account",
-    //   tags: ["xml-js", "twit", "openai", "newsdata-api"],
-    //   codeLink: "https://github.com/thisisyashgarg/news-tweeter-bot",
-    //   websiteLink:
-    //     "https://twitter.com/IAmCryptologer?t=Rv_xgKBcUDbNc1lbUrBjhw&s=09",
-    //   screenshots: [
-    //     "https://res.cloudinary.com/dwwtffefs/image/upload/v1677303411/news-bot/Screenshot_Capture_-_2023-02-25_-_11-06-38_kvcpnu.png",
-    //   ],
-    // },
+    {
+      title: "CSI-Innowave",
+      description:
+        "This is our college's official technical society CSI-Innowave's website",
+      tags: ["Tailwind CSS", "Material UI", "Acertinity UI", "React.js"],
+      codeLink: "https://github.com/prajjwal2-3/CSI",
+      websiteLink:
+        "https://csiinnowave-three.vercel.app/",
+      screenshots: [
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1709726315/Screenshot_2024-03-06_172736_gdrk8w.png",
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1709726315/Screenshot_2024-03-06_172817_fvcrhu.png",
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1709726314/Screenshot_2024-03-06_172756_lptzrk.png",
+      ],
+    },
     // {
     //   title: "EaseIt",
     //   description:
