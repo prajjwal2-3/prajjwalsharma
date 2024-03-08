@@ -199,7 +199,7 @@ description:"Revamped the message interface and significantly contributed to the
       tags: ["Tailwind CSS", "Material UI", "Acertinity UI", "React.js"],
       codeLink: "https://github.com/prajjwal2-3/CSI",
       websiteLink:
-        "https://csiinnowave-three.vercel.app/",
+        "https://www.csiinnowave.com/",
       screenshots: [
         "https://res.cloudinary.com/dzkldv06d/image/upload/v1709726315/Screenshot_2024-03-06_172736_gdrk8w.png",
         "https://res.cloudinary.com/dzkldv06d/image/upload/v1709726315/Screenshot_2024-03-06_172817_fvcrhu.png",
