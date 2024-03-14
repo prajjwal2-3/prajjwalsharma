@@ -208,6 +208,20 @@ description:"Revamped the message interface and significantly contributed to the
       ],
     },
     {
+      title: "CSI-Innowave",
+      description:
+        "This is our college's official technical society CSI-Innowave's website",
+      tags: ["Tailwind CSS", "Material UI", "Acertinity UI", "React.js"],
+      codeLink: "https://github.com/prajjwal2-3/CSI",
+      websiteLink:
+        "https://www.csiinnowave.com/",
+      screenshots: [
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1709726315/Screenshot_2024-03-06_172736_gdrk8w.png",
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1709726315/Screenshot_2024-03-06_172817_fvcrhu.png",
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1709726314/Screenshot_2024-03-06_172756_lptzrk.png",
+      ],
+    },
+    {
       title: "MovieGPT",
       description:
         "Moviegpt is a movie recommendation website that uses the power of OPENAI's GPT-3.5 model to recommend movies based on users input.",
