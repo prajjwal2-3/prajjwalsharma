@@ -173,6 +173,21 @@ description:"Revamped the message interface and significantly contributed to the
     },
   ],
   projects: [
+   
+    {
+      title: "CSI-Innowave",
+      description:
+        "This is our college's official technical society CSI-Innowave's website",
+      tags: ["Tailwind CSS", "Material UI", "Acertinity UI", "React.js"],
+      codeLink: "https://github.com/prajjwal2-3/CSI",
+      websiteLink:
+        "https://www.csiinnowave.com/",
+      screenshots: [
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1709726315/Screenshot_2024-03-06_172736_gdrk8w.png",
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1709726315/Screenshot_2024-03-06_172817_fvcrhu.png",
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1709726314/Screenshot_2024-03-06_172756_lptzrk.png",
+      ],
+    },
     {
       title: "Not Youtube",
       description: "Not Youtube is a video streaming app",
@@ -190,20 +205,6 @@ description:"Revamped the message interface and significantly contributed to the
         "https://res.cloudinary.com/dzkldv06d/image/upload/v1709726517/Screenshot_2024-03-06_173108_ehvc5d.png",
         "https://res.cloudinary.com/dzkldv06d/image/upload/v1709725926/Screenshot_2024-03-06_172100_w524o5.png",
         "https://res.cloudinary.com/dzkldv06d/image/upload/v1709726517/Screenshot_2024-03-06_173139_irblvn.png",
-      ],
-    },
-    {
-      title: "CSI-Innowave",
-      description:
-        "This is our college's official technical society CSI-Innowave's website",
-      tags: ["Tailwind CSS", "Material UI", "Acertinity UI", "React.js"],
-      codeLink: "https://github.com/prajjwal2-3/CSI",
-      websiteLink:
-        "https://csiinnowave-three.vercel.app/",
-      screenshots: [
-        "https://res.cloudinary.com/dzkldv06d/image/upload/v1709726315/Screenshot_2024-03-06_172736_gdrk8w.png",
-        "https://res.cloudinary.com/dzkldv06d/image/upload/v1709726315/Screenshot_2024-03-06_172817_fvcrhu.png",
-        "https://res.cloudinary.com/dzkldv06d/image/upload/v1709726314/Screenshot_2024-03-06_172756_lptzrk.png",
       ],
     },
     {
