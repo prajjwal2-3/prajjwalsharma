@@ -59,16 +59,16 @@ description:"Revamped the message interface and significantly contributed to the
     ],
   },
   skills: [
-    // {
-    //   skillName: "NextJS",
-    //   skillIcon: (
-    //     <img
-    //       alt="nextjslogo"
-    //       className={BOOTSTRAP_FOR_SKILL_ICON}
-    //       src="https://res.cloudinary.com/dwwtffefs/image/upload/v1689799688/next-js_wcrebp.svg"
-    //     />
-    //   ),
-    // },
+    {
+      skillName: "NextJS",
+      skillIcon: (
+        <img
+          alt="nextjslogo"
+          className={BOOTSTRAP_FOR_SKILL_ICON}
+          src="https://res.cloudinary.com/dwwtffefs/image/upload/v1689799688/next-js_wcrebp.svg"
+        />
+      ),
+    },
     {
       skillName: "ReactJS",
       skillIcon: (
