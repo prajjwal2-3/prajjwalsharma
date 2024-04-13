@@ -2,7 +2,7 @@ import React from "react";
 
 const BOOTSTRAP_FOR_SKILL_ICON = "w-12 text-4xl mx-auto inline-block ";
 export const RESUME_LINK =
-"https://drive.google.com/file/d/1Ewbcy95nzceJ1WOojRzirMvVNAdlLbQy/view?usp=sharing";
+"https://docs.google.com/document/d/1cPH_6jSVeDcd7wDiFe2HnnnwY8PJEoDUdM9aiCdV840/edit?usp=sharing";
 export const PROFILE_PIC =
   "https://res.cloudinary.com/dzkldv06d/image/upload/v1708884662/xxk0icbcarelejf0nqe6.jpg";
 const data = {
@@ -11,7 +11,7 @@ const data = {
   social: {
     github: "https://github.com/prajjwal2-3",
     linkedin: "https://www.linkedin.com/in/prajjwal-sharma-5700811b1/",
-    // twitter: "https://twitter.com/thisisyashgargg",
+    twitter: "https://twitter.com/prajjwa63214072",
     email: "prajjwalbh25@gmail.com",
   },
   about: {
