@@ -99,16 +99,16 @@ description:"Revamped the message interface and significantly contributed to the
         />
       ),
     },
-    // {
-    //   skillName: "EC2 (AWS)",
-    //   skillIcon: (
-    //     <img
-    //       alt="awslogo"
-    //       className={BOOTSTRAP_FOR_SKILL_ICON}
-    //       src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1024px-Amazon_Web_Services_Logo.svg.png"
-    //     />
-    //   ),
-    // },
+    {
+      skillName: "PostgreSQL",
+      skillIcon: (
+        <img
+          alt="postgresqllogo"
+          className={BOOTSTRAP_FOR_SKILL_ICON}
+          src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg"
+        />
+      ),
+    },
     {
       skillName: "Docker",
       skillIcon: (
@@ -150,7 +150,6 @@ description:"Revamped the message interface and significantly contributed to the
         />
       ),
     },
-
     {
       skillName: "HTML",
       skillIcon: (
