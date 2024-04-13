@@ -226,7 +226,7 @@ description:"Revamped the message interface and significantly contributed to the
 
     {
       title: "Edhaba",
-      description: "Foodify is a food exploration app",
+      description: "Edhaba is a food exploration app",
       tags: ["react", "tailwindcss", "redux-toolkit", "javascript"],
       codeLink: "https://github.com/prajjwal2-3/Edhaba-prod.git",
       websiteLink: "https://edhaba-prod.vercel.app/",
