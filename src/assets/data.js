@@ -59,16 +59,16 @@ description:"Revamped the message interface and significantly contributed to the
     ],
   },
   skills: [
-    // {
-    //   skillName: "NextJS",
-    //   skillIcon: (
-    //     <img
-    //       alt="nextjslogo"
-    //       className={BOOTSTRAP_FOR_SKILL_ICON}
-    //       src="https://res.cloudinary.com/dwwtffefs/image/upload/v1689799688/next-js_wcrebp.svg"
-    //     />
-    //   ),
-    // },
+    {
+      skillName: "NextJS",
+      skillIcon: (
+        <img
+          alt="nextjslogo"
+          className={BOOTSTRAP_FOR_SKILL_ICON}
+          src="https://res.cloudinary.com/dwwtffefs/image/upload/v1689799688/next-js_wcrebp.svg"
+        />
+      ),
+    },
     {
       skillName: "ReactJS",
       skillIcon: (
@@ -109,16 +109,16 @@ description:"Revamped the message interface and significantly contributed to the
     //     />
     //   ),
     // },
-    // {
-    //   skillName: "Docker",
-    //   skillIcon: (
-    //     <img
-    //       alt="dockerlogo"
-    //       className={BOOTSTRAP_FOR_SKILL_ICON}
-    //       src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png"
-    //     />
-    //   ),
-    // },
+    {
+      skillName: "Docker",
+      skillIcon: (
+        <img
+          alt="dockerlogo"
+          className={BOOTSTRAP_FOR_SKILL_ICON}
+          src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png"
+        />
+      ),
+    },
 
     {
       skillName: "Typescript",
