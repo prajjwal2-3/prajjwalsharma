@@ -1,5 +1,10 @@
 import React from "react";
-
+import postman from '../images/postman.svg'
+import shadcn from '../images/shadcn-ui.png'
+import prisma from '../images/prisma.png'
+import express from '../images/express-js.png'
+import nextjs from '../images/next-js.png'
+import tailwind from '../images/tailwindcss.png'
 const BOOTSTRAP_FOR_SKILL_ICON = "w-12 text-4xl mx-auto inline-block ";
 export const RESUME_LINK =
 "https://docs.google.com/document/d/1cPH_6jSVeDcd7wDiFe2HnnnwY8PJEoDUdM9aiCdV840/edit?usp=sharing";
@@ -23,39 +28,39 @@ const data = {
     title: "My Experience",
     companies: [
       {
-name: "Hiretal",
-description:"I developed a robust TypeScript and Express backend architecture, significantly optimizing Elasticsearch queries to achieve a 100-fold increase in speed. Additionally, I streamlined the deployment process on Digital Ocean by utilizing Docker, complemented with efficient build scripts. To further enhance system performance, I implemented caching mechanisms on both the frontend and backend, resulting in a remarkable 10 times faster response time. The working tech stack for this project included Next.js, Node.js, and Elasticsearch.",
-tenure:"Aug 2023 - Present (Full Stack Developer)",
-websiteLink:"https://hiretal.ai/"
+name: "Conqr",
+description:"As a Next.js Developer Intern at Conqr, I initiated the development of their inaugural repository, translating intricate Figma designs into a fully functional website. Leveraging Next.js's advanced features, I meticulously crafted the site, optimizing performance and user experience. Employing Material UI and Shadcn, I ensured a seamless and visually appealing interface.I also made an AI navigation bot that takes you to your desired web page according to your search query.",
+tenure:"April 2024 - Present (Nextjs Developer Intern)",
+websiteLink:"https://conqr-azure.vercel.app/"
 
       },
 
-      {
-        name: "Bluelearn",
+//       {
+//         name: "Bluelearn",
 
-description:"Revamped the message interface and significantly contributed to the web release, incorporating features from the mobile app to enhance user experience. Additionally, developed Bluelearn Admin Panel v3.0, which includes advanced functionalities such as complex filters and a drag-and-drop feature. The technical work was carried out using a stack comprising Next.js and React Query.",      
-  tenure: "June 2023 - Present (React Developer Intern)",
-        websiteLink: "https://www.bluelearn.in/",
-      },
-      {
-        name: "Matrimonials",
-        description: `Improved application robustness by solving multiple bugs, added DOM to PDF generation, and integrated search filters, utilizing React.js, Node.js, EC2, and MongoDB.`,
-        tenure: "June 2023 - July 2023 (Freelance - Full Stack Developer)",
-        websiteLink: "https://www.matrimonials.ai/",
-      },
-      {
-        name: "Intelligent Labs",
-        description: `Developed a company collaboration platform from scratch, working closely with the founders to brainstorm the app flow. Took responsibility for the entire user journey, including user onboarding, authentication, search, feed, and profile. Implemented a Node.js backend using the MVC architecture, incorporating JWT authentication. Successfully built a dynamic feed page and search functionality that updates in real-time with new posts.`,
-        tenure: "April 2023 (Full Stack Developer Intern)",
-        websiteLink: "https://reacti.ai/",
-      },
-      {
-        name: "Slingshot",
-        description:
-          "Part of the new ventures and collaborated with founders, teaching Node.js, achieving 10,000+ hits on EaseIt, creating Node.js bots, building data crawlers, and deploying apps using Docker and AWS EC2.",
-        tenure: "Nov 2022 - Feb 2023 (4 months) (SDE Intern)",
-        websiteLink: "https://slingshotahead.com/",
-      },
+// description:"Revamped the message interface and significantly contributed to the web release, incorporating features from the mobile app to enhance user experience. Additionally, developed Bluelearn Admin Panel v3.0, which includes advanced functionalities such as complex filters and a drag-and-drop feature. The technical work was carried out using a stack comprising Next.js and React Query.",      
+//   tenure: "June 2023 - Present (React Developer Intern)",
+//         websiteLink: "https://www.bluelearn.in/",
+//       },
+      // {
+      //   name: "Matrimonials",
+      //   description: `Improved application robustness by solving multiple bugs, added DOM to PDF generation, and integrated search filters, utilizing React.js, Node.js, EC2, and MongoDB.`,
+      //   tenure: "June 2023 - July 2023 (Freelance - Full Stack Developer)",
+      //   websiteLink: "https://www.matrimonials.ai/",
+      // },
+      // {
+      //   name: "Intelligent Labs",
+      //   description: `Developed a company collaboration platform from scratch, working closely with the founders to brainstorm the app flow. Took responsibility for the entire user journey, including user onboarding, authentication, search, feed, and profile. Implemented a Node.js backend using the MVC architecture, incorporating JWT authentication. Successfully built a dynamic feed page and search functionality that updates in real-time with new posts.`,
+      //   tenure: "April 2023 (Full Stack Developer Intern)",
+      //   websiteLink: "https://reacti.ai/",
+      // },
+      // {
+      //   name: "Slingshot",
+      //   description:
+      //     "Part of the new ventures and collaborated with founders, teaching Node.js, achieving 10,000+ hits on EaseIt, creating Node.js bots, building data crawlers, and deploying apps using Docker and AWS EC2.",
+      //   tenure: "Nov 2022 - Feb 2023 (4 months) (SDE Intern)",
+      //   websiteLink: "https://slingshotahead.com/",
+      // },
     ],
   },
   skills: [
@@ -65,7 +70,7 @@ description:"Revamped the message interface and significantly contributed to the
         <img
           alt="nextjslogo"
           className={BOOTSTRAP_FOR_SKILL_ICON}
-          src="https://res.cloudinary.com/dwwtffefs/image/upload/v1689799688/next-js_wcrebp.svg"
+          src={nextjs}
         />
       ),
     },
@@ -76,6 +81,16 @@ description:"Revamped the message interface and significantly contributed to the
           alt="reactLogo"
           className={BOOTSTRAP_FOR_SKILL_ICON}
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+        />
+      ),
+    },
+    {
+      skillName: "ExpressJS",
+      skillIcon: (
+        <img
+          alt="reactLogo"
+          className={BOOTSTRAP_FOR_SKILL_ICON}
+          src={express}
         />
       ),
     },
@@ -110,6 +125,16 @@ description:"Revamped the message interface and significantly contributed to the
       ),
     },
     {
+      skillName: "Prisma ORM",
+      skillIcon: (
+        <img
+          alt="postgresqllogo"
+          className={BOOTSTRAP_FOR_SKILL_ICON}
+          src={prisma}
+        />
+      ),
+    },
+    {
       skillName: "Docker",
       skillIcon: (
         <img
@@ -119,7 +144,26 @@ description:"Revamped the message interface and significantly contributed to the
         />
       ),
     },
-
+    {
+      skillName: "Postman",
+      skillIcon: (
+        <img
+          alt="postmanlogo"
+          className={BOOTSTRAP_FOR_SKILL_ICON}
+          src={postman}
+        />
+      ),
+    },
+    {
+      skillName: "Shadcn-UI",
+      skillIcon: (
+        <img
+          alt="shadcn-ui"
+          className={BOOTSTRAP_FOR_SKILL_ICON}
+          src={shadcn}
+        />
+      ),
+    },
     {
       skillName: "Typescript",
       skillIcon: (
@@ -146,10 +190,11 @@ description:"Revamped the message interface and significantly contributed to the
         <img
           alt="tailwindlogo"
           className={BOOTSTRAP_FOR_SKILL_ICON}
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1024px-Tailwind_CSS_Logo.svg.png"
+          src={tailwind}
         />
       ),
     },
+   
     {
       skillName: "HTML",
       skillIcon: (
