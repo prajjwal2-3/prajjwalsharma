@@ -233,6 +233,20 @@ websiteLink:"https://conqr-azure.vercel.app/"
       ],
     },
     {
+      title: "Pocketlaw",
+      description:
+        "Clone of landing page of pocketlaw website.",
+      tags: ["Tailwind CSS", "Material UI", "Acertinity UI", "React.js", "Framer-motion"],
+      codeLink: "https://github.com/prajjwal2-3/pocket",
+      websiteLink:
+        "https://pocket-seven-zeta.vercel.app/",
+      screenshots: [
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1715624513/Screenshot_2024-05-13_235036_ayd7fx.png",
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1715624513/Screenshot_2024-05-13_235103_cnbwwb.png",
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1715624513/Screenshot_2024-05-13_235134_jfxccj.png",
+      ],
+    },
+    {
       title: "Not Youtube",
       description: "Not Youtube is a video streaming app",
       tags: [
