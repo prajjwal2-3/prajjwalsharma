@@ -218,6 +218,19 @@ export const data: Data = {
   ],
   projects: [
     {
+      title: "RoadmapAI",
+      description:
+        "With RoadmapAI you can generate roadmaps for any topics.",
+      tags: ["Tailwind CSS", "NextJS","Claude haiku","Framer-motion"],
+      codeLink: "https://github.com/prajjwal2-3/Roadmap.ai",
+      websiteLink: "https://roadmap-ai-eight.vercel.app/",
+      screenshots: [
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1720958229/Screenshot_2024-07-14_172613_mhwwuh.png",
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1720958229/Screenshot_2024-07-14_172554_ywvomm.png",
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1720958229/Screenshot_2024-07-14_172627_cne5iv.png",
+      ],
+    },
+    {
       title: "CSI-Innowave",
       description:
         "This is our college's official technical society CSI-Innowave's website",
@@ -246,6 +259,23 @@ export const data: Data = {
         "https://res.cloudinary.com/dzkldv06d/image/upload/v1715624513/Screenshot_2024-05-13_235036_ayd7fx.png",
         "https://res.cloudinary.com/dzkldv06d/image/upload/v1715624513/Screenshot_2024-05-13_235103_cnbwwb.png",
         "https://res.cloudinary.com/dzkldv06d/image/upload/v1715624513/Screenshot_2024-05-13_235134_jfxccj.png",
+      ],
+    },
+    {
+      title: "Trackkerrr",
+      description: "A very simple Todo application made with ReactJs, Typescript and Zustand.",
+      tags: [
+        "Tailwind CSS",
+        "React.js",
+        "Typescript",
+        "Zustand"
+      ],
+      codeLink: "https://github.com/prajjwal2-3/Trackkerrr",
+      websiteLink: "https://trackkerrr.vercel.app/",
+      screenshots: [
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1720958406/Screenshot_2024-07-14_172911_yo8yi3.png",
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1720958406/Screenshot_2024-07-14_172957_goeyrn.png",
+        
       ],
     },
     {
