@@ -27,7 +27,7 @@ export default function Projects({ projects }:projects) {
       My Projects
     </h1>
     {projects.map((project, index) => (
-      <div data-aos="fade-up" data-aos-duration="400" data-aos-delay="600">
+      <div data-aos="fade-up" data-aos-duration="400" data-aos-delay="600" key={index}>
         <ProjectCard project={project} key={index} />
       </div>
     ))}
