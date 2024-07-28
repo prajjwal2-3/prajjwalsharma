@@ -11,7 +11,7 @@ export const ANDROID_LOGO =
 
 const BOOTSTRAP_FOR_SKILL_ICON = "w-12 text-4xl mx-auto inline-block ";
 export const RESUME_LINK =
-  "https://docs.google.com/document/d/1cPH_6jSVeDcd7wDiFe2HnnnwY8PJEoDUdM9aiCdV840/edit?usp=sharing";
+  "https://drive.google.com/file/d/11ydWF7EJ2_PMEHAMren9EdkBRu-pORg7/view?usp=sharing";
 
 export const PROFILE_PIC =
   "https://res.cloudinary.com/dzkldv06d/image/upload/v1708884662/xxk0icbcarelejf0nqe6.jpg";
