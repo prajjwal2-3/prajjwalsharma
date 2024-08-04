@@ -218,6 +218,19 @@ export const data: Data = {
   ],
   projects: [
     {
+      title: "Taskify-trello clone",
+      description:
+        "With taskify you can list your task and categorize them in various columns. ",
+      tags: [ "NextJS","Tailwind CSS","MongoDB","Framer-motion","Typescript","NodeJS","Next-Auth"],
+      codeLink: "https://github.com/prajjwal2-3/workflow-trello.git",
+      websiteLink: "https://trello-board-as.vercel.app/",
+      screenshots: [
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1722740648/Screenshot_2024-08-04_083206_cokskc.png",
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1722740663/Screenshot_2024-08-04_083345_mtxvze.png",
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1722740662/Screenshot_2024-08-04_083359_hgiexe.png",
+      ],
+    },
+    {
       title: "RoadmapAI",
       description:
         "With RoadmapAI you can generate roadmaps for any topics.",
