@@ -90,7 +90,7 @@ export const data: Data = {
         description:
           "As a Next.js Developer Intern at Conqr, I initiated the development of their inaugural repository, translating intricate Figma designs into a fully functional website. Leveraging Next.js's advanced features, I meticulously crafted the site, optimizing performance and user experience. Employing Material UI and Shadcn, I ensured a seamless and visually appealing interface.I also made an AI navigation bot that takes you to your desired web page according to your search query.",
         tenure: "April 2024 - Present (Nextjs Developer Intern)",
-        websiteLink: "https://conqr-azure.vercel.app/",
+        websiteLink: "https://conqrr.vercel.app",
       },
     ],
   },
