@@ -86,11 +86,36 @@ export const data: Data = {
     title: "My Experience",
     companies: [
       {
+        name: "Aequus",
+        description:
+          `Still under development, Aequus is a Gaming challenge website that let's you challenge your friend in real time and win exciting rewards. I am working here as a full stack developer, building backend infrastructure using Go and NodeJS, and frontend with NextJS. `,
+        tenure: "August 2024 - Present (Full Stack Developer)",
+        websiteLink: "https://aequusplay.com",
+      },
+      {
         name: "Conqr",
         description:
-          "As a Next.js Developer Intern at Conqr, I initiated the development of their inaugural repository, translating intricate Figma designs into a fully functional website. Leveraging Next.js's advanced features, I meticulously crafted the site, optimizing performance and user experience. Employing Material UI and Shadcn, I ensured a seamless and visually appealing interface.I also made an AI navigation bot that takes you to your desired web page according to your search query.",
-        tenure: "April 2024 - Present (Nextjs Developer Intern)",
+          `At Conqr, I built the entire platform from scratch using Next.js (TypeScript) with the latest features like App Router and Server Actions. I used Zustand for state management and Shadcn for the component library. For the backend, I set up the infrastructure using PostgreSQL and Prisma ORM.
+
+I developed key features, including an AI-powered navigation bot, a Document Conflict Check Analyzer, a Gap Analysis Tool, and a Document Summarizer. Currently, I’m building a live conflict-checking text editor for real-time document analysis.`,
+        tenure: "April 2024 - August 2024 (Nextjs Developer Intern)",
         websiteLink: "https://conqrr.vercel.app",
+      },
+      {
+        name: "Social Yield Capital",
+        description:
+          `I architected and developed a real estate platform focused on social housing and fractional ownership using Next.js and PostgreSQL. I implemented server actions and optimistic updates, which reduced perceived latency by 50% and significantly enhanced the user experience. I also designed a custom chatbot support system that automated 70% of user queries. For authentication, I integrated Auth0, ensuring GDPR compliance and reducing security vulnerabilities by 80%. Additionally, I optimized database queries using Prisma ORM, leading to a 40% reduction in API response times.`,
+        tenure: "June 2024 - July 2024 (Full Stack Developer)",
+        websiteLink: "https://social-yield-capital.vercel.app",
+      },
+      {
+        name: "Wordent",
+        description:
+          `At Wordent, I developed a Patent Similarity Analyzer Tool using Next.js (TypeScript), MongoDB, Express, and Node.js. This tool efficiently analyzes and compares patent documents to identify similarities, streamlining the patent search process for users. The combination of these technologies allowed for scalable and high-performance handling of large patent datasets.
+          This was an Internal tool that was built for a UK based legal firm, that's why there isn't any hosted link.
+          `,
+        tenure: "Feb 2024 - April 2024 (Full Stack Developer + GenAI)",
+        websiteLink: "",
       },
     ],
   },
@@ -218,10 +243,38 @@ export const data: Data = {
   ],
   projects: [
     {
-      title: "Taskify-trello clone",
+      title: "Easevent",
+      description:
+        "With easevent you can create events and manage them from a single platform. ",
+      tags: [
+        "NextJS",
+        "Tailwind CSS",
+        "PostgreSQL",
+        "Framer-motion",
+        "Typescript",
+        "Next-Auth",
+      ],
+      codeLink: "https://github.com/prajjwal2-3/easevent",
+      websiteLink: "https://easevent.vercel.app/",
+      screenshots: [
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1728709191/Screenshot_2024-10-12_102638_jkyov4.png",
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1728709191/Screenshot_2024-10-12_102717_eoxbl7.png",
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1728709189/Screenshot_2024-10-12_102806_sutf8o.png",
+      ],
+    },
+    {
+      title: "Taskify",
       description:
         "With taskify you can list your task and categorize them in various columns. ",
-      tags: [ "NextJS","Tailwind CSS","MongoDB","Framer-motion","Typescript","NodeJS","Next-Auth"],
+      tags: [
+        "NextJS",
+        "Tailwind CSS",
+        "MongoDB",
+        "Framer-motion",
+        "Typescript",
+        "NodeJS",
+        "Next-Auth",
+      ],
       codeLink: "https://github.com/prajjwal2-3/workflow-trello.git",
       websiteLink: "https://trello-board-as.vercel.app/",
       screenshots: [
@@ -232,9 +285,8 @@ export const data: Data = {
     },
     {
       title: "RoadmapAI",
-      description:
-        "With RoadmapAI you can generate roadmaps for any topics.",
-      tags: ["Tailwind CSS", "NextJS","Claude haiku","Framer-motion"],
+      description: "With RoadmapAI you can generate roadmaps for any topics.",
+      tags: ["Tailwind CSS", "NextJS", "Claude haiku", "Framer-motion"],
       codeLink: "https://github.com/prajjwal2-3/Roadmap.ai",
       websiteLink: "https://roadmap-ai-eight.vercel.app/",
       screenshots: [
@@ -276,19 +328,14 @@ export const data: Data = {
     },
     {
       title: "Trackkerrr",
-      description: "A very simple Todo application made with ReactJs, Typescript and Zustand.",
-      tags: [
-        "Tailwind CSS",
-        "React.js",
-        "Typescript",
-        "Zustand"
-      ],
+      description:
+        "A very simple Todo application made with ReactJs, Typescript and Zustand.",
+      tags: ["Tailwind CSS", "React.js", "Typescript", "Zustand"],
       codeLink: "https://github.com/prajjwal2-3/Trackkerrr",
       websiteLink: "https://trackkerrr.vercel.app/",
       screenshots: [
         "https://res.cloudinary.com/dzkldv06d/image/upload/v1720958406/Screenshot_2024-07-14_172911_yo8yi3.png",
         "https://res.cloudinary.com/dzkldv06d/image/upload/v1720958406/Screenshot_2024-07-14_172957_goeyrn.png",
-        
       ],
     },
     {

@@ -18,7 +18,7 @@ export default function Card({name,title,social:{github,linkedin,twitter,email}}
   return (
     <div className="w-full flex flex-col justify-center max-w-xs mx-auto bg-white rounded-xl p-5 border">
       <img
-        className="w-32 mx-auto shadow-xl rounded-full"
+        className="w-32 h-32 object-cover mx-auto shadow-xl rounded-full"
         src={PROFILE_PIC}
         alt="Profile face"
       />
