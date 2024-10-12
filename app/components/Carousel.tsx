@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import forwardlogo from "../../images/arrow_forward_ios_FILL0_wght400_GRAD0_opsz48.svg";
 import backwardlogo from "../../images/arrow_back_ios_new_FILL0_wght400_GRAD0_opsz48.svg";
-
+import Image from "next/image";
 import AOS from "aos";
 
 const Carousel = ({ arrayOfImages}:{
@@ -20,6 +20,7 @@ const Carousel = ({ arrayOfImages}:{
     <div className="relative mb-6  	">
       <img
         alt="img"
+        
         className="border rounded-xl w-full "
         src={arrayOfImages[position]}
       />

@@ -263,6 +263,27 @@ I developed key features, including an AI-powered navigation bot, a Document Con
       ],
     },
     {
+      title: "CSI-Internships",
+      description:
+        "CSI Internship portal is a place where you can browse wheareas internships and apply to them with one click. ",
+      tags: [
+        "NextJS",
+        "Tailwind CSS",
+        "PostgreSQL",
+        "Framer-motion",
+        "Typescript",
+        "Next-Auth",
+      ],
+      codeLink: "https://github.com/prajjwal2-3",
+      websiteLink: "https://interships.csiinnowave.com/",
+      screenshots: [
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1728739793/Screenshot_2024-10-12_185407_x5uyoi.png",
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1728739793/Screenshot_2024-10-12_185425_tmgv6j.png",
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1728739793/Screenshot_2024-10-12_185603_lsxepk.png",
+        "https://res.cloudinary.com/dzkldv06d/image/upload/v1728739793/Screenshot_2024-10-12_185655_zoe3ur.png"
+      ],
+    },
+    {
       title: "Taskify",
       description:
         "With taskify you can list your task and categorize them in various columns. ",
